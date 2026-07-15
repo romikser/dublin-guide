@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smithfield — Dublin Guide</title>
+  <meta name="description" content="The complete guide to Dublin's Smithfield: Cloud Picker roastery, cobbled square, Teeling Distillery, and The Cobblestone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="./index.html" class="nav-back">← Dublin</a>
+  <ul class="nav-links">
+    <li><a href="#history">History</a></li>
+    <li><a href="#places">Places</a></li>
+    <li><a href="#photo">Photo</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+  </ul>
+</nav>
+
+<div class="hero hero-smithfield">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-overline">North Inner City · Cobbled Square</div>
+    <h1>Smith<em>field</em></h1>
+    <p class="hero-tagline">A vast cobbled square that somehow never became a tourist trap. Cloud Picker, Teeling, chimney stacks.</p>
+  </div>
+</div>
+
+<!-- HISTORY -->
+<div class="section" id="history">
+  <div class="section-label">History</div>
+  <h2 class="section-title">From livestock market<br>to <em>roastery square</em></h2>
+
+  <div class="history-block">
+    <div class="history-stats">
+      <div class="stat">
+        <div class="stat-number">1664</div>
+        <div class="stat-label">Smithfield established as a cattle and horse market — one of the oldest markets in Dublin</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">1850s</div>
+        <div class="stat-label">Haymarket and fruit wholesalers consolidate the area as Dublin's produce distribution centre</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">2000s</div>
+        <div class="stat-label">Cobbled square redesigned, Luas arrives — neighbourhood begins its current transformation</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <p>Smithfield is named for the smiths who once worked here, though it developed as a livestock market from the 17th century onward. The vast cobbled square — one of the largest in Ireland — was originally the site of a monthly horse fair that continued well into the 20th century. Old photographs show horses being trotted along the same stones where baristas now serve single-origin filter.</p>
+      <p>The neighbourhood sits in the north inner city, across the river from Temple Bar but worlds away in character. The Capuchin Day Centre, the fruit markets at the back of Smithfield, the surviving Victorian warehouses — this is Dublin that didn't get swallowed by development. The Luas Red Line arrival in the 2000s, the redesign of the square itself, and the opening of a cluster of independent businesses have changed things without erasing the underlying character.</p>
+      <p>Cloud Picker's presence here is the central fact of the neighbourhood for coffee people. They roast on-site, run a flagship café, and do what good roasters do: source carefully, roast to the bean, and let the cup do the explaining. The Teeling Whiskey Distillery nearby completes the picture — the first new distillery in Dublin in over 125 years, it brought the craft spirits movement into the city in a real way.</p>
+      <p>The area around the square is best photographed in the early morning before the city catches up with it — the light hits the east-facing facades around 9am and the cobblestones read beautifully in low directional light.</p>
+    </div>
+  </div>
+</div>
+
+<hr class="divider" />
+
+<!-- PLACES -->
+<div class="section" id="places">
+  <div class="section-label">Places</div>
+  <h2 class="section-title">Where to go,<br>what to <em>do</em></h2>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="coffee">Coffee</button>
+    <button class="filter-btn" data-filter="food">Food</button>
+    <button class="filter-btn" data-filter="bars">Bars</button>
+    <button class="filter-btn" data-filter="shops">Shops</button>
+  </div>
+
+  <div class="places-grid">
+
+    <div class="place-card" data-category="coffee">
+      <div class="place-img"><img src="./images/smithfield/cloud-picker.jpg" alt="Cloud Picker Coffee"></div>
+      <div class="place-category">Coffee · Roastery</div>
+      <div class="place-name">Cloud Picker Coffee</div>
+      <div class="place-address">Smithfield Square</div>
+      <div class="place-desc">Dublin's most serious roaster. Peter and Francis Nolan started Cloud Picker as a specialty roaster focused on traceability — they visit farms, know their producers by name, and roast at the Smithfield flagship where the roaster is visible from the café floor. The filter menu is exceptional; single origins served as V60 or batch brew, with tasting notes that are accurate rather than aspirational. This is the coffee that wins at international competition level. Required stop.</div>
+      <a href="https://maps.apple.com/?q=Cloud+Picker+Coffee+Dublin" class="maps-link" target="_blank">↗ MAPS</a>
+      <div class="place-tags">
+        <span class="place-tag">own roast</span>
+        <span class="place-tag">traceability</span>
+        <span class="place-tag">V60</span>
+        <span class="place-tag">competition level</span>
+        <span class="place-tag">roaster visible</span>
+      </div>
+    </div>
+
+    <div class="place-card" data-category="coffee">
+      <div class="place-img"><img src="./images/smithfield/urbanity-coffee.jpg" alt="Urbanity Coffee"></div>
+      <div class="place-category">Coffee</div>
+      <div class="place-name">Urbanity Coffee</div>
+      <div class="place-address">Near Smithfield</div>
+      <div class="place-desc">Neighbourhood third-wave café with excellent sourcing — they work with Cloud Picker and other quality Irish roasters depending on the season. Smaller and more intimate than Cloud Picker's flagship; better for a longer sit and a quieter morning. Good food menu alongside.</div>
+      <a href="https://maps.apple.com/?q=Urbanity+Coffee+Dublin" class="maps-link" target="_blank">↗ MAPS</a>
+      <div class="place-tags">
+        <span class="place-tag">third-wave</span>
+        <span class="place-tag">guest roasters</span>
+        <span class="place-tag">sit-down</span>
+        <span class="place-tag">food menu</span>
+      </div>
+    </div>
+
+    <div class="place-card" data-category="coffee">
+      <div class="place-img"><img src="./images/smithfield/vice-coffee.jpg" alt="Vice Coffee Stoneybatter"></div>
+      <div class="place-category">Coffee</div>
+      <div class="place-name">Vice Coffee</div>
+      <div class="place-address">Stoneybatter, near Smithfield</div>
+      <div class="place-desc">One of the best espresso bars in the city. Vice operate multiple locations but the ethos stays consistent: excellent espresso, tight menu, no nonsense. The Stoneybatter location is the most neighbourhood-feeling of the bunch. Quick stop or longer sit — works either way.</div>
+      <a href="https://maps.apple.com/?q=Vice+Coffee+Stoneybatter+Dublin" class="maps-link" target="_blank">↗ MAPS</a>
+      <div class="place-tags">
+        <span class="place-tag">espresso</span>
+        <span class="place-tag">tight menu</span>
+        <span class="place-tag">stoneybatter</span>
+        <span class="place-tag">consistent quality</span>
+      </div>
+    </div>
+
+    <div class="place-card" data-category="food">
+      <div class="place-img"><img src="./images/smithfield/fegans-1924.jpg" alt="Fegan's 1924"></div>
+      <div class="place-category">Food</div>
+      <div class="place-name">Fegan's 1924</div>
+      <div class="place-address">Smithfield area</div>
+      <div class="place-desc">Named for the year, Fegan's is the kind of neighbourhood restaurant that the north inner city needed — good food, not a tourist production, reasonably priced. Irish produce with a light touch. Good option for lunch when you're exploring Smithfield and don't want to go far.</div>
+      <a href="https://maps.apple.com/?q=Fegans+1924+Dublin" class="maps-link" target="_blank">↗ MAPS</a>
+      <div class="place-tags">
+        <span class="place-tag">irish produce</span>
+        <span class="place-tag">neighbourhood</span>
+        <span class="place-tag">lunch</span>
+      </div>
+    </div>
+
+    <div class="place-card" data-category="bars">
+      <div class="place-img"><img src="./images/smithfield/cobblestone-pub.jpg" alt="The Cobblestone"></div>
+      <div class="place-category">Bar · Trad Sessions</div>
+      <div class="place-name">The Cobblestone</div>
+      <div class="place-address">Smithfield Square</div>
+      <div class="place-desc">The most important pub on this list. A true traditional Irish pub — small, no frills, live trad sessions most nights, crowd of actual locals and musicians. The fight to preserve it from development became a flashpoint in Dublin's conversations about what the city is for. Drink Guinness here. Listen to the music. The contrast with the specialty coffee world one door over is exactly what Dublin is.</div>
+      <a href="https://maps.apple.com/?q=The+Cobblestone+Dublin+Smithfield" class="maps-link" target="_blank">↗ MAPS</a>
+      <div class="place-tags">
+        <span class="place-tag">trad sessions</span>
+        <span class="place-tag">guinness</span>
+        <span class="place-tag">institution</span>
+        <span class="place-tag">local music</span>
+        <span class="place-tag">live every night</span>
+      </div>
+    </div>
+
+    <div class="place-card" data-category="bars">
+      <div class="place-img"><img src="./images/smithfield/frank-ryans.jpg" alt="Frank Ryan's"></div>
+      <div class="place-category">Bar</div>
+      <div class="place-name">Frank Ryan's</div>
+      <div class="place-address">Near Smithfield</div>
+      <div class="place-desc">A proper Dublin pub with no pretension and no craft beer list. The kind of place that exists to make you comfortable — worn bar stools, good Guinness pour, conversation if you want it. A corrective to the curated drinking experience of the specialty bars.</div>
+      <a href="https://maps.apple.com/?q=Frank+Ryans+Dublin" class="maps-link" target="_blank">↗ MAPS</a>
+      <div class="place-tags">
+        <span class="place-tag">traditional</span>
+        <span class="place-tag">guinness pour</span>
+        <span class="place-tag">local</span>
+        <span class="place-tag">no frills</span>
+      </div>
+    </div>
+
+    <div class="place-card" data-category="shops">
+      <div class="place-img"><img src="./images/smithfield/teeling-distillery.jpg" alt="Teeling Whiskey Distillery"></div>
+      <div class="place-category">Distillery</div>
+      <div class="place-name">Teeling Whiskey Distillery</div>
+      <div class="place-address">Newmarket, near Smithfield</div>
+      <div class="place-desc">The first new whiskey distillery in Dublin since 1976. The Teelings brought craft distilling back to the city and the result is worth experiencing — the facility tour is unusually good (you actually see all the production stages), the whiskey is excellent, and the shop carries cask-strength and limited releases you won't find in off-licences. The Stout Cask and the Single Grain are the entry points. The 24-year single malt is the pinnacle.</div>
+      <a href="https://maps.apple.com/?q=Teeling+Whiskey+Distillery+Dublin" class="maps-link" target="_blank">↗ MAPS</a>
+      <div class="place-tags">
+        <span class="place-tag">craft distillery</span>
+        <span class="place-tag">distillery tour</span>
+        <span class="place-tag">cask strength</span>
+        <span class="place-tag">limited releases</span>
+        <span class="place-tag">dublin-made</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="divider" />
+
+<!-- PHOTO SPOTS -->
+<div class="section" id="photo">
+  <div class="section-label">Street Photography</div>
+  <h2 class="section-title">Where to <em>shoot</em></h2>
+  <div class="section-body">
+    <p>Smithfield is at its best in the early morning — the square is vast and empty, the cobblestones catch low directional light from the east, and the chimney stacks give you industrial vertical lines against the sky. The fruit market lanes behind the square are active from very early and have good texture and colour.</p>
+  </div>
+
+  <div class="photo-grid">
+    <div class="photo-spot">
+      <img src="./images/smithfield/photo-square-dawn.jpg" alt="Smithfield Square at Dawn">
+      <div class="photo-spot-overlay">Smithfield Square at Dawn</div>
+    </div>
+    <div class="photo-spot">
+      <img src="./images/smithfield/photo-chimney.jpg" alt="Old Jameson Chimney">
+      <div class="photo-spot-overlay">Old Jameson Distillery Chimney</div>
+    </div>
+    <div class="photo-spot">
+      <img src="./images/smithfield/photo-fruit-market.jpg" alt="Fruit Market Lanes">
+      <div class="photo-spot-overlay">Fruit Market Lanes</div>
+    </div>
+    <div class="photo-spot">
+      <img src="./images/smithfield/photo-luas.jpg" alt="Luas Stop Reflections">
+      <div class="photo-spot-overlay">Luas Stop Reflections</div>
+    </div>
+    <div class="photo-spot">
+      <img src="./images/smithfield/photo-cobblestone-exterior.jpg" alt="The Cobblestone Exterior">
+      <div class="photo-spot-overlay">The Cobblestone Exterior</div>
+    </div>
+    <div class="photo-spot">
+      <img src="./images/smithfield/photo-square-evening.jpg" alt="Smithfield Square Evening">
+      <div class="photo-spot-overlay">Smithfield Square Evening</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 2rem;" class="intro-card">
+    <p><strong>Best times:</strong> Dawn (7–9am) for the empty square and cobblestone light. The square faces roughly east-west so morning light catches the facades well. <strong>Evening from 8pm</strong> when the square lights up and The Cobblestone fills with music — the contrast of old pub and redesigned plaza is worth shooting.</p>
+  </div>
+</div>
+
+<hr class="divider" />
+
+<!-- MAP -->
+<div class="section-sm">
+  <div class="section-label">Location</div>
+  <h2 class="section-title" style="font-size: 1.5rem; font-family: 'Barlow Condensed', sans-serif;">Find it</h2>
+  <div class="map-embed">
+    <iframe
+      src="https://maps.google.com/maps?q=Smithfield,+Dublin,+Ireland&output=embed&z=15"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
+<hr class="divider" />
+
+<!-- AGENDA -->
+<div class="section" id="agenda">
+  <div class="section-label">Suggested Days</div>
+  <h2 class="section-title">How to spend<br>your <em>time</em></h2>
+
+  <div class="agenda-grid">
+
+    <div class="agenda-card">
+      <div class="agenda-header">Coffee &amp; History Day</div>
+      <div class="agenda-items">
+        <div class="agenda-item">
+          <div class="agenda-time">08:30</div>
+          <div class="agenda-activity"><strong>Smithfield Square</strong>Photograph the cobbles before anyone arrives. Best light window of the day.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">09:30</div>
+          <div class="agenda-activity"><strong>Cloud Picker</strong>Filter coffee. Look at the roaster. Take your time with the single origin.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">11:00</div>
+          <div class="agenda-activity"><strong>Teeling Distillery Tour</strong>Book in advance — 60–90 min, worth it. The production stages are all visible.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">13:00</div>
+          <div class="agenda-activity"><strong>Fegan's 1924</strong>Lunch. Neighbourhood restaurant, Irish produce, no tourist production.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">15:00</div>
+          <div class="agenda-activity"><strong>Fruit Market Lanes</strong>Wander the lanes behind the square. The market infrastructure, the old warehouses.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">19:00</div>
+          <div class="agenda-activity"><strong>The Cobblestone</strong>Trad session, Guinness. One of the most important rooms in the city.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="agenda-card">
+      <div class="agenda-header">Short Version</div>
+      <div class="agenda-items">
+        <div class="agenda-item">
+          <div class="agenda-time">09:00</div>
+          <div class="agenda-activity"><strong>Cloud Picker</strong>Filter coffee. The roaster is visible — look at it.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">10:00</div>
+          <div class="agenda-activity"><strong>Square Walk</strong>Walk the square and the surrounding streets. Find the fruit market lanes.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">12:00</div>
+          <div class="agenda-activity"><strong>Teeling Shop</strong>If not doing the tour — the shop has cask-strength and limited releases worth seeing.</div>
+        </div>
+        <div class="agenda-item">
+          <div class="agenda-time">13:30</div>
+          <div class="agenda-activity"><strong>The Cobblestone</strong>Early lunch pint. Sit inside if there's a session starting.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Dublin<span>.</span></div>
+  <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+    <a href="./ranelagh.html" style="font-family:'Space Mono',monospace;font-size:10px;color:var(--text-muted);letter-spacing:0.08em;text-transform:uppercase;">Next: Ranelagh →</a>
+  </div>
+  <ul class="footer-links">
+    <li><a href="./index.html">← All Neighbourhoods</a></li>
+  </ul>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="./script.js"></script>
+</body>
+</html>
