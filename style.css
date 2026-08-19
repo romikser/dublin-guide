@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Barlow+Condensed:wght@700&display=swap');
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -18,9 +16,9 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Space Mono', monospace;
-  font-size: 13px;
-  line-height: 1.6;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -45,7 +43,7 @@ nav {
 nav.scrolled { background: #ffffff; }
 
 .nav-logo {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 13px;
   font-weight: 700;
   color: var(--text);
@@ -62,7 +60,7 @@ nav.scrolled { background: #ffffff; }
   list-style: none;
 }
 .nav-links a {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -77,7 +75,7 @@ nav.scrolled { background: #ffffff; }
 .nav-links a.active { color: var(--text); }
 
 .nav-back {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -99,7 +97,7 @@ nav.scrolled { background: #ffffff; }
 .hero-content { position: static; max-width: none; }
 
 .hero-overline {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -109,7 +107,7 @@ nav.scrolled { background: #ffffff; }
 .hero-overline::before { display: none; }
 
 .hero h1 {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: clamp(4.5rem, 14vw, 13rem);
   font-weight: 700;
   line-height: 0.9;
@@ -124,7 +122,7 @@ nav.scrolled { background: #ffffff; }
 }
 
 .hero-tagline {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   color: var(--text-muted);
   max-width: 540px;
@@ -139,7 +137,7 @@ nav.scrolled { background: #ffffff; }
 .full-width-section { padding: 5rem 4rem; }
 
 .section-label {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -149,7 +147,7 @@ nav.scrolled { background: #ffffff; }
 .section-label::before { display: none; }
 
 .section-title {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -164,13 +162,13 @@ nav.scrolled { background: #ffffff; }
 }
 
 .section-body {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 12px;
   line-height: 1.85;
   color: var(--text-dim);
   max-width: 680px;
 }
-.section-body p { font-family: 'Space Mono', monospace; font-size: 12px; line-height: 1.85; color: var(--text-dim); }
+.section-body p { font-family: 'Courier New', Courier, monospace; font-size: 12px; line-height: 1.85; color: var(--text-dim); }
 .section-body p + p { margin-top: 1.1rem; }
 
 /* ── DIVIDER ── */
@@ -200,7 +198,7 @@ nav.scrolled { background: #ffffff; }
   margin-bottom: -1px;
 }
 .stat-number {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--text);
@@ -208,7 +206,7 @@ nav.scrolled { background: #ffffff; }
   margin-bottom: 0.4rem;
 }
 .stat-label {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.06em;
   color: var(--text-muted);
@@ -228,7 +226,7 @@ nav.scrolled { background: #ffffff; }
   background: none;
   border: none;
   border-right: 1px solid var(--border);
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -261,18 +259,7 @@ nav.scrolled { background: #ffffff; }
   overflow: hidden;
   transition: background 0.15s;
 }
-.place-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 0;
-  background: var(--accent);
-  transition: height 0.2s;
-}
-.place-card:hover::before { height: 100%; }
-.place-card:hover { background: #fafafa; }
+.place-card:hover { background: #f5f5f5; }
 .place-card.hidden { display: none; }
 
 .place-img {
@@ -295,7 +282,7 @@ nav.scrolled { background: #ffffff; }
 }
 
 .place-category {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -303,7 +290,7 @@ nav.scrolled { background: #ffffff; }
   margin-bottom: 0.6rem;
 }
 .place-name {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -313,14 +300,14 @@ nav.scrolled { background: #ffffff; }
   letter-spacing: 0.02em;
 }
 .place-address {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   color: var(--text-muted);
   margin-bottom: 0.75rem;
   letter-spacing: 0.04em;
 }
 .place-desc {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   color: var(--text-dim);
   line-height: 1.7;
@@ -328,7 +315,7 @@ nav.scrolled { background: #ffffff; }
 }
 .maps-link {
   display: inline-block;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -348,7 +335,7 @@ nav.scrolled { background: #ffffff; }
   margin-top: 8px;
 }
 .place-tag {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 9px;
   padding: 3px 8px;
   border: 1px solid var(--border-light);
@@ -373,7 +360,7 @@ nav.scrolled { background: #ffffff; }
 }
 .ranking-header > div {
   padding: 10px 16px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -389,7 +376,7 @@ nav.scrolled { background: #ffffff; }
 .ranking-row:last-child { border-bottom: none; }
 .ranking-row > div {
   padding: 14px 16px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   border-right: 1px solid var(--border-light);
   line-height: 1.5;
@@ -398,7 +385,7 @@ nav.scrolled { background: #ffffff; }
 .ranking-row > div:last-child { border-right: none; }
 
 .ranking-rank {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   font-size: 22px !important;
   font-weight: 700;
   color: var(--text-muted) !important;
@@ -406,7 +393,7 @@ nav.scrolled { background: #ffffff; }
   align-items: center;
 }
 .ranking-name {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   font-size: 15px !important;
   font-weight: 700;
   text-transform: uppercase;
@@ -468,18 +455,7 @@ nav.scrolled { background: #ffffff; }
   background: #fff;
   transition: background 0.15s;
 }
-.neighborhood-card:hover { background: #fafafa; color: var(--text); }
-.neighborhood-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 0;
-  background: var(--accent);
-  transition: height 0.2s;
-}
-.neighborhood-card:hover::before { height: 100%; }
+.neighborhood-card:hover { background: #f5f5f5; color: var(--text); }
 
 .neighborhood-card-bg,
 .neighborhood-card-overlay { display: none; }
@@ -490,7 +466,7 @@ nav.scrolled { background: #ffffff; }
   background: none;
 }
 .neighborhood-card-label {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -498,7 +474,7 @@ nav.scrolled { background: #ffffff; }
   margin-bottom: 0.5rem;
 }
 .neighborhood-card-name {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -508,7 +484,7 @@ nav.scrolled { background: #ffffff; }
   letter-spacing: 0.01em;
 }
 .neighborhood-card-tagline {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   color: var(--text-dim);
   line-height: 1.65;
@@ -559,7 +535,7 @@ nav.scrolled { background: #ffffff; }
   right: 0;
   padding: 0.6rem 0.75rem;
   background: rgba(255,255,255,0.93);
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -599,7 +575,7 @@ nav.scrolled { background: #ffffff; }
   padding: 1rem 1.5rem;
   background: var(--text);
   color: #ffffff;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -616,7 +592,7 @@ nav.scrolled { background: #ffffff; }
 }
 .agenda-item:last-child { border-bottom: none; }
 .agenda-time {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   letter-spacing: 0.04em;
   color: var(--accent);
@@ -628,7 +604,7 @@ nav.scrolled { background: #ffffff; }
   padding-top: 1.1rem;
 }
 .agenda-activity {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   color: var(--text-dim);
   line-height: 1.6;
@@ -640,7 +616,7 @@ nav.scrolled { background: #ffffff; }
   font-weight: 700;
   margin-bottom: 0.2rem;
   font-size: 11px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* ── MAP ── */
@@ -660,12 +636,11 @@ nav.scrolled { background: #ffffff; }
 .intro-card {
   background: #f7f7f7;
   border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
   padding: 1.5rem 2rem;
   margin-bottom: 1.5rem;
 }
 .intro-card p {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   line-height: 1.8;
   color: var(--text-dim);
@@ -689,7 +664,7 @@ nav.scrolled { background: #ffffff; }
 }
 .essential-icon { font-size: 1rem; margin-bottom: 0.4rem; }
 .essential-label {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 9px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -697,7 +672,7 @@ nav.scrolled { background: #ffffff; }
   margin-bottom: 0.25rem;
 }
 .essential-value {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   color: var(--text);
 }
@@ -714,7 +689,7 @@ footer {
   background: #fff;
 }
 .footer-logo {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -723,7 +698,7 @@ footer {
 }
 .footer-logo span { color: var(--accent); }
 .footer-note {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   color: var(--text-muted);
 }
@@ -734,7 +709,7 @@ footer {
   border: 1px solid var(--border);
 }
 .footer-links li a {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.08em;
@@ -764,7 +739,7 @@ footer a:hover { color: var(--accent); }
   color: #ffffff;
   cursor: pointer;
   font-size: 1rem;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   opacity: 0;
   transform: translateY(8px);
   transition: all 0.2s;
@@ -777,11 +752,10 @@ footer a:hover { color: var(--accent); }
 .base-card {
   background: #f7f7f7;
   border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
   padding: 1.5rem 2rem;
 }
 .base-card-label {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -790,7 +764,7 @@ footer a:hover { color: var(--accent); }
   margin-bottom: 0.75rem;
 }
 .base-card p {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
   color: var(--text-dim);
   line-height: 1.7;
@@ -811,7 +785,7 @@ footer a:hover { color: var(--accent); }
   margin-top: 2rem;
 }
 .munich-fact {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   color: var(--text-muted);
   border-top: 1px solid var(--border-light);
